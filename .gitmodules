@@ -76,9 +76,6 @@
 [submodule "bundle/OmniCppComplete"]
 	path = bundle/OmniCppComplete
 	url = https://github.com/vim-scripts/OmniCppComplete.git
-[submodule "bundle/TagsMenu.zip"]
-	path = bundle/TagsMenu.zip
-	url = https://github.com/vim-scripts/TagsMenu.zip.git
 [submodule "bundle/CCTree"]
 	path = bundle/CCTree
 	url = https://github.com/vim-scripts/CCTree.git
@@ -118,9 +115,6 @@
 [submodule "bundle/asciidoc-vim"]
 	path = bundle/asciidoc-vim
 	url = https://github.com/dagwieers/asciidoc-vim.git
-[submodule "bundle/SuperTab-continued."]
-	path = bundle/SuperTab-continued.
-	url = https://github.com/vim-scripts/SuperTab-continued..git
 [submodule "bundle/genutils"]
 	path = bundle/genutils
 	url = https://github.com/vim-scripts/genutils.git
