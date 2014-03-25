@@ -95,22 +95,12 @@ else
 
 endif " has("autocmd")
 
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
 
 " Only do this part when compiled with support for cscope.
 if has("cscope")
 	set cscopetag           " map CTRL-] to search cscope db, see help tags
 	set cscopetagorder=0    " search cscope db first then tags db
-
-	" add any database in current directory
-	" else add database pointed to by environment
-	set nocsverb
-	if filereadable("cscope.out")
-		cs add cscope.out
-	elseif $CSCOPE_DB != ""
-	    cs add $CSCOPE_DB
-	endif
 	set cscopeverbose       " print message when adding csc db fails
 endif " has("cscope")
-
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#infect()
