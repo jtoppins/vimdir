@@ -95,12 +95,16 @@ else
 
 endif " has("autocmd")
 
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#infect()
-
 " Only do this part when compiled with support for cscope.
 if has("cscope")
 	set cscopetag           " map CTRL-] to search cscope db, see help tags
 	set cscopetagorder=0    " search cscope db first then tags db
 	set cscopeverbose       " print message when adding csc db fails
 endif " has("cscope")
+
+function SetLinuxKernelSpacing()
+	set noexpandtab
+	set shiftwidth=8
+	set softtabstop=8
+	set ts=8
+endfunction

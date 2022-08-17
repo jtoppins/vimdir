@@ -1,123 +1,90 @@
-[submodule "bundle/vim-pathogen"]
-	path = bundle/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen.git
-[submodule "bundle/minibufexpl.vim"]
-	path = bundle/minibufexpl.vim
+[submodule "minibufexpl.vim"]
+	path = pack/plugins/start/minibufexpl.vim
 	url = https://github.com/vim-scripts/minibufexpl.vim.git
-[submodule "bundle/bufexplorer.zip"]
-	path = bundle/bufexplorer.zip
+[submodule "bufexplorer"]
+	path = pack/plugins/start/bufexplorer
 	url = https://github.com/vim-scripts/bufexplorer.zip.git
-[submodule "bundle/nerdcommenter"]
-	path = bundle/nerdcommenter
+[submodule "nerdcommenter"]
+	path = pack/plugins/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+[submodule "nerdtree"]
+	path = pack/plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "bundle/DoxygenToolkit.vim"]
-	path = bundle/DoxygenToolkit.vim
+[submodule "DoxygenToolkit"]
+	path = pack/plugins/start/DoxygenToolkit.vim
 	url = https://github.com/vim-scripts/DoxygenToolkit.vim.git
-[submodule "bundle/utl.vim"]
-	path = bundle/utl.vim
+[submodule "utl"]
+	path = pack/plugins/start/utl.vim
 	url = https://github.com/vim-scripts/utl.vim.git
-[submodule "bundle/vcscommand.vim"]
-	path = bundle/vcscommand.vim
-	url = https://github.com/vim-scripts/vcscommand.vim.git
-[submodule "bundle/ultisnips"]
-	path = bundle/ultisnips
+[submodule "ultisnips"]
+	path = pack/plugins/start/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
-[submodule "bundle/rainbow_parentheses.vim"]
-	path = bundle/rainbow_parentheses.vim
-	url = https://github.com/kien/rainbow_parentheses.vim.git
-[submodule "bundle/ctrlp.vim"]
-	path = bundle/ctrlp.vim
+[submodule "ctrlp"]
+	path = pack/plugins/start/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
+[submodule "syntastic"]
+	path = pack/syntax/start/syntastic
 	url = https://github.com/scrooloose/syntastic.git
-[submodule "bundle/gundo.vim"]
-	path = bundle/gundo.vim
+[submodule "gundo"]
+	path = pack/plugins/start/gundo.vim
 	url = https://github.com/sjl/gundo.vim.git
-[submodule "bundle/vim-eunuch"]
-	path = bundle/vim-eunuch
+[submodule "vim-eunuch"]
+	path = pack/plugins/start/vim-eunuch
 	url = https://github.com/tpope/vim-eunuch.git
-[submodule "bundle/CRefVim"]
-	path = bundle/CRefVim
-	url = https://github.com/vim-scripts/CRefVim.git
-[submodule "bundle/cscope_macros.vim"]
-	path = bundle/cscope_macros.vim
+[submodule "cscope_macros"]
+	path = pack/plugins/start/cscope_macros.vim
 	url = https://github.com/vim-scripts/cscope_macros.vim.git
-[submodule "bundle/foldutil.vim"]
-	path = bundle/foldutil.vim
+[submodule "foldutil"]
+	path = pack/plugins/start/foldutil.vim
 	url = https://github.com/vim-scripts/foldutil.vim.git
-[submodule "bundle/YankRing.vim"]
-	path = bundle/YankRing.vim
+[submodule "YankRing"]
+	path = pack/plugins/start/YankRing.vim
 	url = https://github.com/vim-scripts/YankRing.vim.git
-[submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
+[submodule "vim-fugitive"]
+	path = pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "bundle/vim-yankmarks"]
-	path = bundle/vim-yankmarks
+[submodule "vim-yankmarks"]
+	path = pack/plugins/start/vim-yankmarks
 	url = https://github.com/mikeage/vim-yankmarks.git
-[submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
+[submodule "vim-surround"]
+	path = pack/plugins/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "bundle/linediff.vim"]
-	path = bundle/linediff.vim
+[submodule "linediff"]
+	path = pack/plugins/start/linediff.vim
 	url = https://github.com/AndrewRadev/linediff.vim.git
-[submodule "bundle/vim-bbye"]
-	path = bundle/vim-bbye
+[submodule "vim-bbye"]
+	path = pack/plugins/start/vim-bbye
 	url = https://github.com/moll/vim-bbye.git
-[submodule "bundle/vim-gitgutter"]
-	path = bundle/vim-gitgutter
+[submodule "vim-gitgutter"]
+	path = pack/plugins/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
-[submodule "bundle/vim-signature"]
-	path = bundle/vim-signature
+[submodule "vim-signature"]
+	path = pack/plugins/start/vim-signature
 	url = https://github.com/kshenoy/vim-signature.git
-[submodule "bundle/OmniCppComplete"]
-	path = bundle/OmniCppComplete
-	url = https://github.com/vim-scripts/OmniCppComplete.git
-[submodule "bundle/CCTree"]
-	path = bundle/CCTree
-	url = https://github.com/vim-scripts/CCTree.git
-[submodule "bundle/autoload_cscope.vim"]
-	path = bundle/autoload_cscope.vim
+[submodule "autoload_cscope"]
+	path = pack/plugins/start/autoload_cscope.vim
 	url = https://github.com/vim-scripts/autoload_cscope.vim.git
-[submodule "bundle/cscope-menu"]
-	path = bundle/cscope-menu
+[submodule "cscope-menu"]
+	path = pack/plugins/start/cscope-menu
 	url = https://github.com/vim-scripts/cscope-menu.git
-[submodule "bundle/SearchComplete"]
-	path = bundle/SearchComplete
+[submodule "SearchComplete"]
+	path = pack/plugins/start/SearchComplete
 	url = https://github.com/vim-scripts/SearchComplete.git
-[submodule "bundle/Highlight-UnMatched-Brackets"]
-	path = bundle/Highlight-UnMatched-Brackets
-	url = https://github.com/vim-scripts/Highlight-UnMatched-Brackets.git
-[submodule "bundle/matchindent.vim"]
-	path = bundle/matchindent.vim
-	url = https://github.com/vim-scripts/matchindent.vim.git
-[submodule "bundle/instant-markdown.vim"]
-	path = bundle/instant-markdown.vim
+[submodule "instant-markdown"]
+	path = pack/plugins/start/instant-markdown.vim
 	url = https://github.com/vim-scripts/instant-markdown.vim.git
-[submodule "bundle/hammer.vim"]
-	path = bundle/hammer.vim
-	url = https://github.com/vim-scripts/hammer.vim.git
-[submodule "bundle/lastbuf.vim"]
-	path = bundle/lastbuf.vim
-	url = https://github.com/Rykka/lastbuf.vim.git
-[submodule "bundle/better-snipmate-snippet"]
-	path = bundle/better-snipmate-snippet
-	url = https://github.com/vim-scripts/better-snipmate-snippet.git
-[submodule "bundle/Cpp11-Syntax-Support"]
-	path = bundle/Cpp11-Syntax-Support
-	url = https://github.com/vim-scripts/Cpp11-Syntax-Support.git
-[submodule "bundle/bad-whitespace"]
-	path = bundle/bad-whitespace
-	url = https://github.com/vim-scripts/bad-whitespace.git
-[submodule "bundle/asciidoc-vim"]
-	path = bundle/asciidoc-vim
-	url = https://github.com/dagwieers/asciidoc-vim.git
-[submodule "bundle/genutils"]
-	path = bundle/genutils
-	url = https://github.com/vim-scripts/genutils.git
-[submodule "bundle/Align"]
-	path = bundle/Align
+[submodule "lastbuf"]
+	path = pack/plugins/start/lastbuf.vim
+	url = https://github.com/gu-fan/lastbuf.vim.git
+[submodule "Align"]
+	path = pack/plugins/start/Align
 	url = https://github.com/tapichu/Align.git
+[submodule "vim-trailing-whitespace"]
+	path = pack/syntax/start/vim-trailing-whitespace
+	url = https://github.com/bronson/vim-trailing-whitespace.git
+[submodule "genutils"]
+	path = pack/plugins/start/genutils
+	url = https://github.com/vim-scripts/genutils.git
+[submodule "vim-airline"]
+	path = pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
