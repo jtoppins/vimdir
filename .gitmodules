@@ -1,5 +1,5 @@
 [submodule "minibufexpl.vim"]
-	path = pack/plugins/start/minibufexpl.vim
+	path = pack/plugins/opt/minibufexpl.vim
 	url = https://github.com/vim-scripts/minibufexpl.vim.git
 [submodule "bufexplorer"]
 	path = pack/plugins/start/bufexplorer
@@ -23,7 +23,7 @@
 	path = pack/plugins/start/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
 [submodule "syntastic"]
-	path = pack/syntax/start/syntastic
+	path = pack/syntax/opt/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 [submodule "gundo"]
 	path = pack/plugins/start/gundo.vim
@@ -88,3 +88,12 @@
 [submodule "vim-airline"]
 	path = pack/plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule "ale"]
+	path = pack/syntax/opt/ale
+	url = https://github.com/dense-analysis/ale.git
+[submodule "asyncomplete"]
+	path = pack/syntax/opt/asyncomplete
+	url = https://github.com/prabirshrestha/asyncomplete.vim.git
+[submodule "vim-airline-themes"]
+	path = pack/plugins/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git

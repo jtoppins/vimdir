@@ -1,0 +1,29 @@
+---
+- Ansible:
+        fedora:
+              - python3-ansible-lint
+- asciidoc:
+        fedora:
+              - proselint
+- bourne shell:
+        fedora:
+              - ShellCheck
+              - shfmt
+- C/C++:
+        fedora:
+              - astyle
+              - cppcheck
+              - flawfinder
+              - uncrustify
+- CSS:
+        fedora:
+              - csslint
+- Lua:
+        fedora:
+              - luacheck
+- Python:
+        fedora:
+              - python3-autopep8
+- YAML:
+        fedora:
+              - yamllint
